@@ -1,6 +1,17 @@
 ---
 id: doc2
-title: Document Number 2
+title: PYTHON 정리
 ---
 
-This is a link to [another document.](doc3.md) This is a link to an [external page.](http://www.example.com/)
+```
+def function_name():
+    pass;
+```
+
+```
+def f(a, L=None):
+    if L is None:
+        L = []
+    L.append(a)
+    return L
+```
