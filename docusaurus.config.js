@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: "Luke's Blog",
+  tagline: '기억을 하루하루 정리하는 마음으로...',
   url: 'https://pheadra.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -9,9 +9,9 @@ module.exports = {
   projectName: 'pheadra.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: "Luke's Blog",
       logo: {
-        alt: 'My Site Logo',
+        alt: 'pheadra',
         src: 'img/logo.svg',
       },
       items: [
@@ -36,39 +36,14 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Blog',
+              to: 'blog',
             },
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/pheadra/blog',
